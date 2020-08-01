@@ -1,0 +1,50 @@
+.howTo{
+    margin:30px auto;
+    width: 80%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    direction: rtl; 
+}
+#ingredientsContainer{
+    width: 100%;
+    margin: 30px  auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+#ingredients{
+    margin: 0px 0px 30px 40px;
+    font-size: 20px;
+}
+#description{
+    margin: 20px;
+    font-size: 20px;
+}
+p, ul{ 
+
+    font-size: 22px;
+}
+@media screen and (max-width:850px){
+    .howTo{
+        width: 100%; 
+    }
+
+    #ingredientsContainer{
+      flex-direction: column;
+    
+    } 
+
+   
+}
+@media screen and (max-width: 600px) {
+    #ingredientsContainer > iframe{
+        width: 100%;
+    }
+  
+}
