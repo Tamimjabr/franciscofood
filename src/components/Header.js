@@ -15,7 +15,7 @@ function Header() {
       <div className="header">
        <button id="menu" onClick={handleClick}> <MdRestaurantMenu id="menuIcon"/> </button>
       <div className="SiteName">
-          <h1>Francisco Food</h1>
+          <h1>Tamimo Food</h1>
       </div>
     </div> 
    
