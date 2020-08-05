@@ -26,7 +26,9 @@
     border: none;
     border-radius: 10px;
     color: white;
-    background-color:rgba(176, 129, 194,0.8);
+    background: #355C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     cursor: pointer;
     z-index: 1;  
     outline: none;
